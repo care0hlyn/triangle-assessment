@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+
+     <div class="row">
+      <h1>Triangle Tracker</h1>
+      </div><!--this is the div for the first row-->
+
+      <div class="row">
+        <div class="col-md-3">
+          <h2>New Triangle:</h2>
+          <form id="form-group">
+              <input type="text" class="form-control" id="side-one" placeholder="Enter Side 1:">
+              <input type="text" class="form-control" id="side-two" placeholder="Enter Side 2:">
+              <input type="text" class="form-control" id="side-three" placeholder="Enter Side 3:">
+          <br>
+          <button type="submit" class="btn btn-danger">+ SUBMIT</button>
+         </form>
+        </div><!--this is the div for the first column-->
+
+        <div class="col-md-3">
+            <h2>Equilateral:</h2>
+            <ul id="side-one">
+            </ul>
+        </div><!--this is the div for the second column-->
+
+        <div class="col-md-3">
+            <h2>Isoceles:</h2>
+            <ul id="side-two">
+            </ul>
+        </div><!--this is the div for the third column-->
+
+
+        <div class="col-md-3">
+            <h2>Scalene:</h2>
+            <ul id="side-three">
+            </ul>
+        </div><!--this is the div for the fourth column-->
+
+      </div><!--this is the div for the second row-->
+
+    </div><!--this is the div for the container-->
+  </body>
+</html>
