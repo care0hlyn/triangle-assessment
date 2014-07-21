@@ -1,0 +1,17 @@
+      <div class="col-md-3">
+        <h2>Equilateral:</h2>
+        <div class="green-yellow">
+        </div><!--this is the div for the equilateral triangle-->
+      </div><!--this is the div for the second col-->
+
+      <div class="col-md-3">
+        <h2>Isoceles:</h2>
+        <div class="blue">
+        </div><!--this is the div for the isoceles triangle-->
+      </div><!--this is the div for the third col-->
+
+      <div class="col-md-3">
+        <h2>Scalene:</h2>
+        <div class="yellow">
+        </div><!--this is the div for the scalene triangle-->
+      </div><!--this is the div for the third col-->

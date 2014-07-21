@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 #green-yellow {
   background-color: GreenYellow;
 }
@@ -7,5 +11,18 @@
 }
 
 #yellow {
+  background-color: yellow;
+}
+
+#equal li {
+  background-color: GreenYellow;
+
+}
+
+#two-sides li {
+  background-color: CornFlowerBlue;
+}
+
+#none li {
   background-color: yellow;
 }
